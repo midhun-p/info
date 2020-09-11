@@ -643,6 +643,27 @@ h2.resp-accordion {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    margin:15px 0 -25px 0;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: #bd5d38;
+  }
+  
+
 /*--//slider-up-arrow--*/
 /*---- responsive-design -----*/
 @media(max-width:1366px){
